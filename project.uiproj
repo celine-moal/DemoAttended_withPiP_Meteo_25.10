@@ -1,0 +1,6 @@
+{
+  "Name": "DemoAttended_avecPiP",
+  "ProjectType": "Process",
+  "Description": "NewAttendedAutomationFrameworkDefaultDescription\r\nPiP + météo",
+  "MainFile": "Main.xaml"
+}

@@ -1,0 +1,15 @@
+{
+  "Value": {
+    "Form_Success/onClick_RepeatProcess.xaml": [
+      {
+        "IsEnabled": true,
+        "Annotation": "testmessage",
+        "Id": "28af3812-03a6-49b1-8d91-c9f983a6e6d5",
+        "ActivityIdRef": "Assign_1",
+        "ActivityId": "1.8",
+        "ActivityName": "Assign",
+        "IsTransient": false
+      }
+    ]
+  }
+}
