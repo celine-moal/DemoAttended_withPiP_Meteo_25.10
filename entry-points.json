@@ -15,7 +15,9 @@
             "type": "boolean"
           },
           "in_bProcessPiP": {
-            "type": "boolean"
+            "type": "boolean",
+            "x-default-expression": "True",
+            "default": true
           }
         },
         "required": []

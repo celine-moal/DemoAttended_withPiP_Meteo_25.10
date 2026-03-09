@@ -106,7 +106,7 @@
       <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="onClick_Continue" sap:VirtualizedContainerService.HintSize="1160.4,2414.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="onClick_Continue" sap:VirtualizedContainerService.HintSize="1133.2,2349.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="njl:JObject" Name="inputFormjObject" />
       <Variable x:TypeArguments="x:String" Name="nomVille" />
@@ -130,7 +130,24 @@
         <InArgument x:TypeArguments="x:String" />
       </ufa:GetFormFieldsActivity.InstanceName>
     </ufa:GetFormFieldsActivity>
-    <ufa:CloseFormActivity InstanceName="{x:Null}" DisplayName="Close Form" FormId="89d254d9-4e4e-495d-92c3-5e3c491a1a1b" sap:VirtualizedContainerService.HintSize="451.2,121.6" sap2010:WorkflowViewState.IdRef="CloseFormActivity_1" />
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="451.2,56.8" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+      <ui:CommentOut.Body>
+        <Sequence DisplayName="Activités ignorées" sap:VirtualizedContainerService.HintSize="449.6,172.8" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ufa:CloseFormActivity InstanceName="{x:Null}" DisplayName="Close Form" FormId="89d254d9-4e4e-495d-92c3-5e3c491a1a1b" sap:VirtualizedContainerService.HintSize="416,112.8" sap2010:WorkflowViewState.IdRef="CloseFormActivity_1" />
+        </Sequence>
+      </ui:CommentOut.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:CommentOut>
     <If Condition="[varbProcessPip2]" sap:VirtualizedContainerService.HintSize="451.2,826.4" sap2010:WorkflowViewState.IdRef="If_1">
       <If.Then>
         <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="449.6,344.8" sap2010:WorkflowViewState.IdRef="Sequence_3">
