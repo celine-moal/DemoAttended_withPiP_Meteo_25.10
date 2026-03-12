@@ -132,7 +132,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </State>
-      <State x:Name="__ReferenceID3" sap2010:Annotation.AnnotationText="-Check (and initialize) Config dictionary&#xA;-Update Config with Config form values&#xA;-Set Config defaults" DisplayName="Initialization Config" sap:VirtualizedContainerService.HintSize="558.4,2663.2" sap2010:WorkflowViewState.IdRef="State_4">
+      <State x:Name="__ReferenceID3" sap2010:Annotation.AnnotationText="-Check (and initialize) Config dictionary&#xA;-Update Config with Config form values&#xA;-Set Config defaults" DisplayName="Initialization Config" sap:VirtualizedContainerService.HintSize="248,168.8" sap2010:WorkflowViewState.IdRef="State_4">
         <State.Entry>
           <TryCatch DisplayName="Try initializing configurations" sap:VirtualizedContainerService.HintSize="513.6,2213.6" sap2010:WorkflowViewState.IdRef="TryCatch_1">
             <sap:WorkflowViewStateService.ViewState>
@@ -346,7 +346,7 @@
             <Transition.To>
               <State x:Name="__ReferenceID1" sap2010:Annotation.AnnotationText="Displays User Input Form to the user and executes processes." DisplayName="User Input Form and Process" sap:VirtualizedContainerService.HintSize="400.8,99.2" sap2010:WorkflowViewState.IdRef="State_3">
                 <State.Entry>
-                  <TryCatch DisplayName="Try displaying User Inputs Form and executing processes" sap:VirtualizedContainerService.HintSize="484.8,1736.8" sap2010:WorkflowViewState.IdRef="TryCatch_2">
+                  <TryCatch DisplayName="Try displaying User Inputs Form and executing processes" sap:VirtualizedContainerService.HintSize="484.8,1854.4" sap2010:WorkflowViewState.IdRef="TryCatch_2">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -443,7 +443,7 @@
                           <ActivityAction.Argument>
                             <DelegateInArgument x:TypeArguments="ui:BusinessRuleException" Name="exception" />
                           </ActivityAction.Argument>
-                          <Assign DisplayName="Assign BusinessException" sap:VirtualizedContainerService.HintSize="483.2,24.8" sap2010:WorkflowViewState.IdRef="Assign_3">
+                          <Assign DisplayName="Assign BusinessException" sap:VirtualizedContainerService.HintSize="483.2,142.4" sap2010:WorkflowViewState.IdRef="Assign_3">
                             <Assign.To>
                               <OutArgument x:TypeArguments="ui:BusinessRuleException">[BusinessException]</OutArgument>
                             </Assign.To>
